@@ -67,7 +67,7 @@ export function Benefits() {
           </div>
 
           {/* Right Column */}
-          <div>
+          <div className="flex flex-col items-start">
             <h2 className="text-3xl font-bold text-[#0f2636] mb-8">Serviços Inclusos</h2>
             <ul className="space-y-4">
               {[
@@ -90,6 +90,17 @@ export function Benefits() {
                 </li>
               ))}
             </ul>
+
+            <div className="mt-8">
+              <a
+                href="https://wa.me/5517996501530"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-[#8ec63f] hover:bg-[#7ebd34] text-[#0f2636] font-bold py-3.5 px-8 rounded-full shadow-sm hover:shadow transition-all duration-200 text-base"
+              >
+                Contratar agora
+              </a>
+            </div>
           </div>
         </div>
 

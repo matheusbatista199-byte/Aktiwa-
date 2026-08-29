@@ -62,9 +62,14 @@ export function LucroReal() {
         </div>
 
         <div className="flex justify-center">
-          <Link to="/#planos" className="bg-[#eaf5fc] border border-[#009fe3] text-[#0f2636] px-8 py-4 rounded-full flex items-center justify-center gap-2 hover:bg-[#009fe3] hover:text-white transition-all duration-300 text-[15px]">
+          <a 
+            href="https://wa.me/5517996501530" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="bg-[#eaf5fc] border border-[#009fe3] text-[#0f2636] px-8 py-4 rounded-full flex items-center justify-center gap-2 hover:bg-[#009fe3] hover:text-white transition-all duration-300 text-[15px]"
+          >
             Contrate agora <ArrowUpRight className="w-5 h-5" />
-          </Link>
+          </a>
         </div>
       </div>
     </main>

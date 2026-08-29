@@ -61,14 +61,14 @@ export function QuemSomos() {
       {/* Middle White Section */}
       <section className="py-24 px-6">
         <div className="max-w-[1000px] mx-auto">
-          <div className="text-center mb-10">
+          <div className="text-left md:text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-light text-gray-800 mb-4">
               Contabilidade que <span className="text-[#009fe3] font-bold">acompanha a evolução da sua empresa</span>
             </h2>
             <p className="text-gray-600">Atendemos empresas de todos os portes que querem mais do que cumprir obrigações fiscais.</p>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-6 mb-16">
+          <div className="flex flex-col items-start md:flex-row md:flex-wrap md:justify-center gap-6 mb-16">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-5 h-5 text-[#009fe3]" />
               <span className="text-gray-700 text-[15px]">Querem organização.</span>
@@ -176,9 +176,14 @@ export function QuemSomos() {
           Se você quer uma contabilidade que trabalha a favor do seu negócio e não apenas para cumprir obrigações <strong className="text-[#009fe3] font-bold">a Aktiwa é a escolha certa.</strong>
         </p>
         
-        <Link to="/#planos" className="inline-flex items-center gap-2 bg-[#eaf5fc] border border-[#009fe3] text-[#0f2636] px-8 py-4 rounded-full hover:bg-[#009fe3] hover:text-white transition-all duration-300 text-[15px]">
+        <a 
+          href="https://wa.me/5517996501530" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="inline-flex items-center gap-2 bg-[#eaf5fc] border border-[#009fe3] text-[#0f2636] px-8 py-4 rounded-full hover:bg-[#009fe3] hover:text-white transition-all duration-300 text-[15px]"
+        >
           Fale com um especialista e descubra como podemos impulsionar sua empresa. <ArrowUpRight className="w-5 h-5" />
-        </Link>
+        </a>
       </section>
 
     </main>

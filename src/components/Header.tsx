@@ -45,7 +45,7 @@ export function Header() {
           <button className="hover:text-[#009fe3] transition-colors py-6 cursor-pointer font-medium flex items-center gap-1">
             Especialidades
           </button>
-          <div className="absolute top-[80%] -left-6 w-[280px] bg-white border border-[#009fe3] rounded-2xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:top-full group-hover:visible transition-all duration-200 flex flex-col z-50 py-2">
+          <div className="absolute top-[80%] -left-6 w-[280px] bg-white border border-[#009fe3] rounded-2xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:top-full group-hover:visible transition-all duration-200 flex flex-col z-50 py-2 overflow-hidden">
             <Link to="/simples-nacional" className="px-6 py-4 text-[#009fe3] hover:bg-[#eaf5fc] hover:font-bold transition-all">Simples Nacional</Link>
             <Link to="/lucro-presumido" className="px-6 py-4 text-[#009fe3] hover:bg-[#eaf5fc] hover:font-bold transition-all">Lucro Presumido</Link>
             <Link to="/lucro-real" className="px-6 py-4 text-[#009fe3] hover:bg-[#eaf5fc] hover:font-bold transition-all">Lucro Real</Link>

@@ -48,9 +48,14 @@ export function Hero() {
             No contrato de 12 meses, <span className="font-bold">todos os recursos extras</span> estão inclusos na mensalidade como bônus.
           </div>
 
-          <button className="bg-[#8ec63f] hover:bg-[#7ebd34] text-[#0f2636] font-bold py-3 px-6 rounded-full transition-colors inline-block mt-2">
+          <a 
+            href="https://wa.me/5517996501530" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-[#8ec63f] hover:bg-[#7ebd34] text-[#0f2636] font-bold py-3 px-6 rounded-full transition-colors inline-block mt-2"
+          >
             Fale conosco pelo WhatsApp
-          </button>
+          </a>
         </div>
       </div>
     </section>
