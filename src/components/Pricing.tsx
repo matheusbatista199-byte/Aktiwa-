@@ -44,8 +44,8 @@ export function Pricing() {
             />
             <Card 
               title="Indústrias" 
-              subtitles={["2 Sócios", "Faturamento até R$ 960.000,00", "Faturamento até R$ 960.000,00"]}
-              prices={["200,00", "200,00"]}
+              subtitles={["2 Sócios", "Faturamento até R$ 960.000,00", "Faturamento até R$ 4.800.000,00"]}
+              prices={["200,00", "450,00"]}
             />
           </div>
         </div>
@@ -66,8 +66,8 @@ export function Pricing() {
             />
             <Card 
               title="Indústrias" 
-              subtitles={["2 Sócios", "Faturamento até R$ 960.000,00", "Faturamento até R$ 960.000,00"]}
-              prices={["349,50", "449,50"]}
+              subtitles={["2 Sócios", "Faturamento até R$ 960.000,00", "Faturamento até R$ 4.800.000,00"]}
+              prices={["349,50", "500,00"]}
             />
           </div>
         </div>
