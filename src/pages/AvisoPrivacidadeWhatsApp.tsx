@@ -44,7 +44,7 @@ export function AvisoPrivacidadeWhatsApp() {
             <section className="border-l-[3px] border-[#0f2636] pl-5">
               <h2 className="text-lg font-bold text-black mb-3 uppercase">4. Quais os seus direitos?</h2>
               <p className="mb-4">
-                A LGPD garante a você direitos como: acesso, correção, eliminação, oposição, dentre outros. Para exercê-los, entre em contato através do e-mail: <strong>contato@aktiwa.com.br</strong>, com o assunto "LGPD".
+                A LGPD garante a você direitos como: acesso, correção, eliminação, oposição, dentre outros. Para exercê-los, entre em contato através do e-mail: <strong>suporte@aktiwa.com.br</strong>, com o assunto "LGPD".
               </p>
             </section>
             

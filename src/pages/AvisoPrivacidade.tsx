@@ -22,7 +22,7 @@ export function AvisoPrivacidade() {
             <li>Tratamento é qualquer operação realizada com os dados pessoais, desde a coleta, passando pelo acesso, utilização, até a eliminação do dado.</li>
             <li>Lei Geral de Proteção de Dados, a LGPD, é uma lei que veio para dizer o que pode e o que não pode ser feito com os seus dados pessoais.</li>
             <li>Os dados que você cadastra em nossa plataforma são tratados de forma segura.</li>
-            <li>Você poderá tirar suas dúvidas e solicitar informações a qualquer momento através do e-mail contato@aktiwa.com.br; Limitamos o tratamento dos dados para as suas devidas finalidades e em conformidade com a lei</li>
+            <li>Você poderá tirar suas dúvidas e solicitar informações a qualquer momento através do e-mail suporte@aktiwa.com.br; Limitamos o tratamento dos dados para as suas devidas finalidades e em conformidade com a lei</li>
           </ul>
 
           <p className="font-bold text-black mt-8">
@@ -131,7 +131,7 @@ export function AvisoPrivacidade() {
             <section id="armazenamento" className="border-l-[3px] border-[#0f2636] pl-5">
               <h2 className="text-lg font-bold text-black mb-3 uppercase">Qual o tempo de armazenamento</h2>
               <p className="mb-4">
-                Nós armazenamos as suas informações durante o período necessário para o cumprimento das finalidades para as quais foram coletadas, respeitando o período e retenção de dados determinado pela legislação aplicável, ou quando você solicitar a eliminação de seus dados pessoais através do nosso atendimento no e-mail contato@aktiwa.com.br.
+                Nós armazenamos as suas informações durante o período necessário para o cumprimento das finalidades para as quais foram coletadas, respeitando o período e retenção de dados determinado pela legislação aplicável, ou quando você solicitar a eliminação de seus dados pessoais através do nosso atendimento no e-mail suporte@aktiwa.com.br.
               </p>
               <p>
                 Caso você solicite a exclusão dos seus dados pessoais fornecidos à Aktiwa, as informações poderão ser conservadas para cumprimento de obrigação legal ou regulatória, para o exercício regular de nossos direitos ou transferência a terceiro. Mas não se preocupe: isso somente acontecerá respeitados os requisitos e hipóteses de tratamento de dados previstos na LGPD.
@@ -155,7 +155,7 @@ export function AvisoPrivacidade() {
             <section id="direitos" className="border-l-[3px] border-[#0f2636] pl-5">
               <h2 className="text-lg font-bold text-black mb-3 uppercase">Quais os seus direitos</h2>
               <p className="mb-4">
-                LGPD concede a você uma série de direitos em relação aos seus dados pessoais e nós respeitamos muito isso. Desta forma, você poderá exercê-los, de forma gratuita, pelo nosso canal de atendimento especifico (e-mail: contato@aktiwa.com.br) destinado a esse assunto, que também está disponível na aba "Contato" na página inicial do site.
+                LGPD concede a você uma série de direitos em relação aos seus dados pessoais e nós respeitamos muito isso. Desta forma, você poderá exercê-los, de forma gratuita, pelo nosso canal de atendimento especifico (e-mail: suporte@aktiwa.com.br) destinado a esse assunto, que também está disponível na aba "Contato" na página inicial do site.
               </p>
               <p className="mb-4">Citamos, abaixo, os direitos de titular que você pode nos solicitar:</p>
               <ul className="list-disc pl-5 space-y-2">
@@ -219,7 +219,7 @@ export function AvisoPrivacidade() {
             <section id="canal" className="border-l-[3px] border-[#0f2636] pl-5">
               <h2 className="text-lg font-bold text-black mb-3 uppercase">Identificação do Encarregado</h2>
               <p>
-                Olívio Durval dos Santos Neto é o encarregado pelo tratamento de dados pessoais. Caso você deseje exercer qualquer um de seus direitos ou tirar dúvidas sobre este Aviso de Privacidade, entre em contato com a nossa Encarregada pelo ALTERAÇÕES A ESTE AVISO DE PRIVACIDADE IDENTIFICAÇÃO DO ENCARREGADO e-mail contato@aktiwa.com.br com o assunto LGPD. Para efetivarmos os seus direitos, podemos solicitar comprovação da sua identidade, como medida de segurança e prevenção à fraude.
+                Olívio Durval dos Santos Neto é o encarregado pelo tratamento de dados pessoais. Caso você deseje exercer qualquer um de seus direitos ou tirar dúvidas sobre este Aviso de Privacidade, entre em contato com a nossa Encarregada pelo ALTERAÇÕES A ESTE AVISO DE PRIVACIDADE IDENTIFICAÇÃO DO ENCARREGADO e-mail suporte@aktiwa.com.br com o assunto LGPD. Para efetivarmos os seus direitos, podemos solicitar comprovação da sua identidade, como medida de segurança e prevenção à fraude.
               </p>
             </section>
 

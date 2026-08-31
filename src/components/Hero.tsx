@@ -23,14 +23,16 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d2a45] via-[#103454]/90 to-transparent"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-16 md:py-24 grid md:grid-cols-2 gap-12">
-        <div className="flex flex-col items-start gap-8">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-16 md:py-24">
+        <div className="flex flex-col items-start gap-8 max-w-3xl lg:max-w-4xl">
           <div>
-            <h1 className="text-3xl md:text-[40px] leading-[1.15] font-bold text-white mb-4">
-              Mais que contabilidade. Abra sua empresa com tudo incluso e comece a faturar sem investir em estrutura
+            <h1 className="text-3xl sm:text-4xl md:text-[40px] lg:text-[44px] leading-[1.25] font-bold text-white mb-5 tracking-tight">
+              Mais que contabilidade. <br className="hidden md:block" />
+              Abra sua empresa com tudo incluso <br className="hidden md:block" />
+              e comece a faturar sem investir em estrutura
             </h1>
-            <p className="text-lg text-gray-200">
-              Aqui você não recebe só um CNPJ.<br/>
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
+              Aqui você não recebe só um CNPJ.<br className="hidden sm:inline" />
               Você recebe uma empresa pronta para operar.
             </p>
           </div>

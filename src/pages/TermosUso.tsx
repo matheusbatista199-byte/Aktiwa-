@@ -72,7 +72,7 @@ export function TermosUso() {
                 Caso você não concorde com os Termos de Uso revisados, cabe a você deixar de utilizar o site. Ao continuar a navegar pelo site e usar nossos produtos e serviços após a alteração dos Termos de Uso, você concordará com as novas condições.
               </p>
               <p>
-                Caso você deseje exercer qualquer um de seus direitos ou tirar dúvidas sobre estes Termos de Uso, entre em contato com o encarregado de Proteção de Dados pelo e-mail contato@aktiwa.com.br. Para efetivarmos os seus direitos, podemos solicitar comprovação da sua identidade, como medida de segurança e prevenção à fraude.
+                Caso você deseje exercer qualquer um de seus direitos ou tirar dúvidas sobre estes Termos de Uso, entre em contato com o encarregado de Proteção de Dados pelo e-mail suporte@aktiwa.com.br. Para efetivarmos os seus direitos, podemos solicitar comprovação da sua identidade, como medida de segurança e prevenção à fraude.
               </p>
             </section>
 

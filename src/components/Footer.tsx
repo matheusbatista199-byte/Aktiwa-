@@ -36,12 +36,12 @@ export function Footer() {
         </p>
 
         <div className="flex flex-col md:flex-row gap-6 md:gap-12 text-[#8ec63f] font-medium text-lg mt-2">
-          <a href="mailto:contato@aktiwa.com.br" className="flex items-center gap-3 hover:text-[#a2dc51] transition-colors">
+          <a href="mailto:suporte@aktiwa.com.br" className="flex items-center gap-3 hover:text-[#a2dc51] transition-colors">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <rect width="20" height="16" x="2" y="4" rx="2" />
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
             </svg>
-            contato@aktiwa.com.br
+            suporte@aktiwa.com.br
           </a>
           <a href="https://wa.me/5517996501530" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-[#a2dc51] transition-colors">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
