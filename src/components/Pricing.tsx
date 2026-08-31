@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'motion/react';
 
 export function Pricing() {
   const Card = ({ title, subtitles, prices }: any) => (
@@ -24,12 +25,26 @@ export function Pricing() {
   );
 
   return (
-    <section id="planos" className="py-16 bg-[#f4f5f7]">
+    <section id="planos" className="py-16 bg-[#f4f5f7] overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <h2 className="text-4xl font-bold text-[#0f2636] mb-12">Planos</h2>
+        <motion.h2 
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-30px" }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="text-4xl font-bold text-[#0f2636] mb-12"
+        >
+          Planos
+        </motion.h2>
 
         {/* Simples Nacional */}
-        <div className="mb-12">
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-30px" }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="mb-12"
+        >
           <h3 className="text-[#009fe3] font-bold text-sm uppercase tracking-widest mb-6">Simples Nacional</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <Card 
@@ -48,10 +63,16 @@ export function Pricing() {
               prices={["200,00", "450,00"]}
             />
           </div>
-        </div>
+        </motion.div>
 
         {/* Lucro Presumido */}
-        <div className="mb-12">
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-30px" }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="mb-12"
+        >
           <h3 className="text-[#009fe3] font-bold text-sm uppercase tracking-widest mb-6">Lucro Presumido</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <Card 
@@ -70,10 +91,16 @@ export function Pricing() {
               prices={["349,50", "500,00"]}
             />
           </div>
-        </div>
+        </motion.div>
 
         {/* ONGs */}
-        <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm mb-6 flex flex-col md:flex-row md:items-center md:justify-between hover:scale-[1.02] hover:shadow-lg transition-all duration-300">
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-30px" }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm mb-6 flex flex-col md:flex-row md:items-center md:justify-between hover:scale-[1.01] hover:shadow-md transition-all duration-300"
+        >
           <div className="mb-6 md:mb-0">
             <h3 className="text-xl font-bold text-[#0f2636] mb-1">Entidades Sem Fins Lucrativos (OSCIPs/ONG)</h3>
             <p className="text-gray-500 text-sm">5 Participantes no Estatuto</p>
@@ -93,9 +120,15 @@ export function Pricing() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-4 text-xs text-gray-500">
+        <motion.div 
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="grid md:grid-cols-2 gap-4 text-xs text-gray-500"
+        >
           <div>
             <p>¹ A cada funcionário adicional: R$ 25,00.</p>
             <p>² Valores acima da tabela somente sob consulta.</p>
@@ -105,7 +138,7 @@ export function Pricing() {
             <p>* Qualquer serviço adicional como alvará, certidões, consultorias: valores sob consulta.</p>
             <p>**Para empresas com obrigatoriedade de retenção de impostos federais, os valores da mensalidade poderão sofrer reajustes pela demanda.</p>
           </div>
-        </div>
+        </motion.div>
 
       </div>
     </section>
